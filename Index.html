@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JanElise Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        JanElise Photography
+    </header>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Photo 1">
+        <img src="image2.jpg" alt="Photo 2">
+        <img src="image3.jpg" alt="Photo 3">
+        <img src="image4.jpg" alt="Photo 4">
+    </div>
+    <footer>
+        &copy; 2025 JanElise Photography. All Rights Reserved.
+    </footer>
+</body>
+</html>
